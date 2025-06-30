@@ -11,7 +11,7 @@ st.set_page_config(page_title="Rural Loan Approval Dashboard", layout="wide")
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("EA.csv")
+    df = pd.read_csv("Rural Indonesia Loan Approval.csv")
     return df
 
 df = load_data()
